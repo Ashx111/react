@@ -9,7 +9,7 @@ function App() {
     const [jsonError, setJsonError] = useState('');
     const [selectedOptions, setSelectedOptions] = useState([]);
 
-    const backendApiUrl = 'https://backend-8ckv.onrender.com';// Replace with your deployed backend API URL
+    const backendApiUrl = 'https://backend-8ckv.onrender.com/bfhl';// Replace with your deployed backend API URL
 
     const handleInputChange = (e) => {
         setJsonInput(e.target.value);
